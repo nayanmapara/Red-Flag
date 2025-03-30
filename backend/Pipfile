@@ -9,6 +9,11 @@ pandas = "*"
 scikit-learn = "*"
 joblib = "*"
 numpy = "*"
+python-dotenv = "*"
+google-genai = "*"
+python-docx = "*"
+pymupdf = "*"
+flask-cors = "*"
 
 [dev-packages]
 
