@@ -11,7 +11,7 @@ export default function Dashboard() {
           <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium">
             AI-Powered Analysis
           </div>
-          <h1 className="text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/80 pb-2">Red Flag</h1>
+          <h1 className="text-5xl font-bold tracking-tight bg-clip-text text-red-500 text-transparent bg-gradient-to-r from-foreground to-foreground/80 pb-2">Red Flag</h1>
           <p className="text-muted-foreground text-lg max-w-2xl">
             Upload invoices or enter details to verify authenticity with advanced AI technology
           </p>

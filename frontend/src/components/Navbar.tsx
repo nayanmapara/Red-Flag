@@ -15,9 +15,9 @@ export function Navbar() {
           style={{ cursor: "pointer" }}
         >
           <div className="p-2 rounded-lg bg-primary/10 shadow-sm">
-            <Flag className="text-primary" size={24} />
+            <Flag className="text-red-500" size={24} />
           </div>
-          <span className="text-xl bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/80">Red Flag</span>
+          <span className="text-xl bg-clip-text text-red-500 text-transparent bg-gradient-to-r from-foreground to-foreground/80">Red Flag</span>
         </div>
         <div className="flex items-center gap-6">
           <ThemeToggle />

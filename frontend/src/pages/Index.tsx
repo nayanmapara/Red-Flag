@@ -22,12 +22,12 @@ const Index = () => {
         <div className="flex items-center justify-center mb-4 relative">
           <div className="absolute inset-0 bg-primary/5 blur-3xl rounded-full"></div>
           <Flag 
-            className="text-primary animate-pulse relative" 
+            className="text-red-500 animate-pulse relative" 
             size={64} 
             strokeWidth={2}
           />
         </div>
-        <h1 className="text-4xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">Red Flag</h1>
+        <h1 className="text-4xl font-bold tracking-tight bg-clip-text text-red-500 text-transparent bg-gradient-to-r from-primary to-primary/70">Red Flag</h1>
         <p className="text-muted-foreground text-lg">Catching Frauds Before They Cost You.</p>
         <div className="mt-4 relative">
           <div className="absolute inset-0 bg-primary/5 blur-xl rounded-full"></div>
