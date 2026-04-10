@@ -3,4 +3,8 @@ pandas
 scikit-learn
 joblib
 numpy
-fitz
+python-dotenv
+google-genai
+python-docx
+pymupdf
+flask-cors
